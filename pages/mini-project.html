@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Task 11: interactive image gallery made with jQuery."><title>Mini project | jQuery Lab</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="../js/main.js" defer></script>
+</head>
+<body>
+<header class="site-header"><div class="nav-wrap"><a class="brand" href="../index.html"><span class="brand-mark">jq</span><span>jQuery Lab</span></a><nav class="nav-links" aria-label="Main navigation"><a href="../index.html" class="">Overview</a><a href="part1.html" class="">Setup</a><a href="effects.html" class="">Effects</a><a href="dom.html" class="">DOM</a><a href="animations.html" class="">Animations</a><a href="mini-project.html" class="active">Mini project</a></nav></div></header>
+<main><div class="container"><section class="page-hero"><p class="eyebrow">Part 05 · Task 11 · Mini project</p><h1>Interactive image gallery</h1><p class="lead">A small gallery built with jQuery. Thumbnails fade into view, and clicking an image opens a larger preview.</p></section><section class="demo-card" style="margin-bottom:76px"><div class="task-label">Selected mini project · Image gallery</div><h2>Explore the collection</h2><p>Click any thumbnail to enlarge it. Close the preview with the × button, by clicking outside the image, or by pressing Escape.</p><div class="gallery-grid"><button class="gallery-card" type="button" aria-label="Enlarge green geometry image"><img src="../assets/image-one.svg" alt="Abstract green geometric artwork"><span>Green geometry</span></button><button class="gallery-card" type="button" aria-label="Enlarge mountain landscape image"><img src="../assets/image-two.svg" alt="Minimal mountain landscape illustration"><span>Quiet landscape</span></button><button class="gallery-card" type="button" aria-label="Enlarge abstract forms image"><img src="../assets/image-three.svg" alt="Two abstract rounded forms"><span>Soft forms</span></button><button class="gallery-card" type="button" aria-label="Enlarge star artwork"><img src="../assets/image-four.svg" alt="Minimal star-shaped abstract artwork"><span>Golden star</span></button></div><p class="mini-hint" style="margin-top:18px">jQuery methods used: hide(), delay(), fadeIn(), fadeOut() and attr().</p></section></div><div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image preview"><div class="lightbox-inner"><button class="lightbox-close" id="lightbox-close" type="button" aria-label="Close preview">×</button><img id="lightbox-image" src="../assets/image-one.svg" alt="Selected gallery image"></div></div></main>
+<footer class="site-footer"><div class="container footer-inner"><span>Assignment #6 · jQuery</span><span>Kulan Alnur · SE-2524</span></div></footer>
+</body></html>
